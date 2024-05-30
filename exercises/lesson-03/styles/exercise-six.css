@@ -1,0 +1,53 @@
+a {
+  color: rgb(38, 116, 130);
+  transition: color 0.15s
+}
+
+a:hover {
+  color: rgb(149, 97, 0);
+}
+
+.text-one {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.price {
+  color: green;
+  font-weight: bold;
+}
+
+.add {
+  background-color: rgb(223, 184, 17);
+  height: 25px;
+  width: 100px;
+  border: none;
+  border-radius: calc(25px / 2);
+  cursor: pointer;
+}
+
+.add:hover {
+  opacity: 0.8;
+}
+
+.add:active {
+  opacity: 0.5;
+}
+
+.buy {
+  background-color: rgb(231, 150, 0);
+  height: 25px;
+  width: 100px;
+  border: none;
+  border-radius: calc(25px / 2);
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.buy:hover {
+  background-color: rgb(255, 132, 0);
+}
+
+.buy:active {
+  opacity: 0.5;
+}
