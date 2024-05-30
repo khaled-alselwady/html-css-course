@@ -1,0 +1,22 @@
+.apply {
+  background-color: rgb(15, 75, 213);
+  color: white;
+  font-weight: bold;
+  border: none;
+  height: 28px;
+  width: 200px;
+  border-radius: calc(28px / 2);
+  margin-right: 5px;
+}
+
+.save {
+  background-color: rgb(206, 218, 235);
+  color: rgb(15, 75, 213);
+  font-weight: bold;
+  height: 28px;
+  width: 60px;
+  border-color: rgb(15, 75, 213);
+  border-style: solid;
+  border-radius: calc(28px / 2);
+  cursor: pointer;
+}
