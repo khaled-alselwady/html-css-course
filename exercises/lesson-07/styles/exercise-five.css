@@ -1,0 +1,8 @@
+.search {
+  width: 400px;
+  padding: 6px 10px;
+  border: none;
+  /* height (from the div tools [browser]) + padding-top + padding-buttom */
+  border-radius: calc(27.3333px / 2);
+  box-shadow: 0px 1px 5px 0 rgba(0, 0, 0, 0.217);
+}
