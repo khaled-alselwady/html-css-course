@@ -1,0 +1,8 @@
+button {
+  background-color: rgb(253, 209, 19);
+  border: none;
+  height: 25px;
+  width: 130px;
+  font-size: 10px;
+  border-radius: calc(25px / 2);
+}
