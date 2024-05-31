@@ -1,0 +1,22 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.parent {
+  background-color: black;
+  width: 360px;
+  padding: 20px;
+}
+
+.title {
+  color: white;
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+
+.content {
+  color: rgb(173, 173, 173);
+}
