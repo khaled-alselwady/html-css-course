@@ -1,0 +1,33 @@
+img {
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 150px;
+}
+
+input {
+  width: 500px;
+  padding: 12px 16px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.252);
+}
+
+.parent {
+  text-align: center;
+}
+
+button {
+  background-color: #EEE;
+  border: none;
+  padding: 12px 20px;
+  font-size: 15px;
+  margin-top: 10px;
+
+}
+
+.search-button {
+  margin-left: 90px;
+  margin-right: 20px;
+}
