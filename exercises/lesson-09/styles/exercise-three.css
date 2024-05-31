@@ -1,0 +1,10 @@
+p {
+  font-family: Arial;
+}
+
+div {
+  border: 1px solid gray;
+  width: 300px;
+  padding-left: 15px;
+  padding-bottom: 18px;
+}
