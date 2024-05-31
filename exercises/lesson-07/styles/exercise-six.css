@@ -1,0 +1,26 @@
+p {
+  font-family: Arial;
+  color: rgb(99, 99, 99);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+input {
+  margin-top: 5px;
+  width: 250px;
+}
+
+.content {
+  margin-top: 12px;
+  font-size: 10px;
+}
+
+button {
+  background-color: rgb(46, 101, 218);
+  color: white;
+  border: none;
+  /* cacl ((height [from the dev tools in the browser] +  padding-top + padding-bottom) / 2) */
+  border-radius: calc((31px + 16px) / 2);
+  padding: 8px 80px;
+  margin-top: 10px;
+}
