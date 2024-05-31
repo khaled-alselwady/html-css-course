@@ -1,0 +1,29 @@
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  vertical-align: middle;
+}
+
+input {
+  font-family: Arial;
+  border: none;
+  font-size: 18px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+button {
+  font-family: Arial;
+  background-color: rgb(48, 148, 255);
+  color: white;
+  font-weight: bold;
+  padding: 5px 14px;
+  border: none;
+  font-size: 15px;
+  border-radius: calc((25.4286px + 10px) / 2);
+  margin-left: 10px;
+  vertical-align: middle;
+}
