@@ -1,0 +1,13 @@
+.parent {
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+}
+
+.first,
+.third {
+  background-color: lightblue;
+}
+
+.second {
+  background-color: lightpink;
+}
