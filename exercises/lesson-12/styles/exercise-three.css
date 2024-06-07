@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.item {
+  background-color: lightpink;
+}
