@@ -1,0 +1,22 @@
+.parent {
+  display: flex;
+  flex-direction: row;
+}
+
+.item1,
+.item3 {
+  background-color: lightblue;
+}
+
+.item2 {
+  background-color: lightpink;
+  flex: 1;
+}
+
+.item1 {
+  width: 50px;
+}
+
+.item3 {
+  width: 75px;
+}
