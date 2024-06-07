@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7254AC;
+  padding: 8px 10px;
+}
+
+.left-side {
+  font-family: Arial;
+  font-weight: bold;
+  color: white;
+  font-size: 14px;
+}
+
+.middle-side input {
+  border: none;
+  width: 400px;
+  border-radius: 50px;
+  height: 23px;
+  padding: 3px 18px;
+}
+
+.right-side button {
+  background-color: #7254AC;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  padding: 8px 10px;
+}
