@@ -1,0 +1,26 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.parent {
+  width: 500px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.22);
+}
+
+.child-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 15px;
+}
+
+.number-of-entities {
+  background-color: #416CEC;
+  color: white;
+  font-weight: bold;
+  padding: 3px 12px;
+  border-radius: 20px;
+}
