@@ -1,0 +1,57 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  margin-right: 15px;
+}
+
+.animal-info {
+  width: 200px;
+}
+
+.profile-image img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.animal-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.animal-type,
+.animal-category {
+  color: gray;
+}
+
+.animal-type {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.animal-category {
+  font-size: 15px;
+}
+
+button {
+  background-color: rgb(0, 128, 255);
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
