@@ -1,0 +1,62 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  width: 400px;
+  border-radius: 3px;
+  padding: 10px 13px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.22);
+}
+
+.all-inboxes-text {
+  font-size: 14px;
+  color: gray;
+}
+
+.message-container {
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.message-info-container {
+  flex: 1;
+}
+
+.sender-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.sender-time-info-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+.sender-name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.message-time {
+  font-size: 13px;
+  color: gray;
+}
+
+.header-message {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+.message-contanet {
+  font-size: 14px;
+  color: gray;
+}
