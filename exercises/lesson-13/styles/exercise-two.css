@@ -1,0 +1,29 @@
+p {
+  margin-top: 0;
+}
+
+.parent-flexbox {
+  display: flex;
+}
+
+.first {
+  width: 100px;
+  background-color: lightpink;
+}
+
+.second {
+  width: 200px;
+  background-color: lightblue;
+}
+
+.child-flexbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item {
+  background-color: black;
+  color: white;
+}
