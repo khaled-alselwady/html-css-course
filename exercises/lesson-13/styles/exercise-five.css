@@ -1,0 +1,62 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  display: flex;
+  width: 410px;
+}
+
+.image-container {
+  margin-right: 12px;
+}
+
+.profile-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-name {
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 3px;
+}
+
+.username {
+  font-weight: normal;
+  color: gray;
+}
+
+.link-container {
+  display: flex;
+  flex: 1;
+  border: 1px solid rgb(188, 187, 187);
+  height: 90px;
+  border-radius: 13px;
+  margin-top: 10px;
+}
+
+.empty-space {
+  width: 160px;
+  background-color: rgb(188, 187, 187);
+  border-top-left-radius: 11px;
+  border-bottom-left-radius: 11px;
+}
+
+.link-info-conainer {
+  padding: 15px;
+}
+
+.link-text {
+  font-size: 12px;
+  color: rgb(107, 107, 107);
+  margin-bottom: 5px;
+}
+
+.vidoe-title {
+  flex: 1;
+}
