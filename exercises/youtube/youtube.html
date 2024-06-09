@@ -8,14 +8,46 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="styles/youtube.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/video.css">
 </head>
 
 <body>
-  <input type="text" placeholder="Search">
+  <div class="header">
+    <div class="left-section">
 
-  <div class="parent">
+      <img class="hamburger-menu" src="imgs/Icons/hamburger-menu.svg">
 
+      <img class="youtube-logo" src="imgs/Icons/youtube-logo.svg">
+
+    </div>
+
+    <div class="middle-section">
+
+      <input class="search-bar" type="text" placeholder="Search">
+
+      <button class="search-button">
+        <img class="search-icon" src="imgs/Icons/search.svg">
+      </button>
+
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="imgs/Icons/voice-search-icon.svg">
+      </button>
+
+    </div>
+
+    <div class="right-section">
+
+      <img class="upload-icon" src="imgs/Icons/upload.svg">
+      <img class="youtube-apps-icon" src="imgs/Icons/youtube-apps.svg">
+      <img class="notifications-icon" src="imgs/Icons/notifications.svg">
+      <img class="current-user-picture" src="imgs/channel-pictures/my-channel.jpeg">
+
+    </div>
+  </div>
+
+  <div class="video-grid">
     <div class="video-preview">
 
       <div class="thumbnail-container">
@@ -208,9 +240,7 @@
       </div>
 
     </div>
-
   </div>
-
 </body>
 
 </html>
