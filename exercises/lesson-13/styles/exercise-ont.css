@@ -1,0 +1,26 @@
+.p {
+  font-family: Arial;
+}
+
+.parent {
+  display: flex;
+
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightpink;
+  width: 100px;
+}
+
+.second {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.first P {
+  background-color: black;
+  color: white;
+}
