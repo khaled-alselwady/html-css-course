@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  padding-top: 120px;
+  padding-left: 120px;
 }
 
 p {
