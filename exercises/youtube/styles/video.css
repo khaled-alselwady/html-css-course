@@ -5,6 +5,10 @@
   row-gap: 40px;
 }
 
+.thumbnail-container {
+  position: relative;
+}
+
 .thumbnail {
   width: 100%;
   margin-bottom: 15px;
@@ -41,4 +45,17 @@
 .stats {
   font-size: 13px;
   color: gray;
+}
+
+.video-time {
+  background-color: black;
+  color: white;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  position: absolute;
+  bottom: 25px;
+  right: 5px;
+  padding: 5px;
+  font-size: 19px;
+  border-radius: 3px;
 }
