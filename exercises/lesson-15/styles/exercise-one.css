@@ -1,0 +1,15 @@
+body {
+  height: 3000px;
+}
+
+.close-button {
+  font-family: Arial;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  background-color: black;
+  color: white;
+  padding: 15px 22px;
+  font-size: 28px;
+  border-radius: 60px;
+}
