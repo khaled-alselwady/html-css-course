@@ -1,0 +1,43 @@
+body {
+  height: 3000px;
+}
+
+.item-image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.item-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.discount-percentage {
+  font-family: Arial;
+  background-color: black;
+  color: white;
+  font-size: 13px;
+  position: absolute;
+  top: 8px;
+  right: 0px;
+  padding: 5px 8px;
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.641);
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-to-cart-button {
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px 13px;
+}
