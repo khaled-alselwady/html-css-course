@@ -1,0 +1,35 @@
+body {
+  height: 3000px;
+}
+
+.close-button {
+  font-family: Arial;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  background-color: black;
+  color: white;
+  padding: 15px 22px;
+  font-size: 28px;
+  border-radius: 60px;
+}
+
+.bottom-right {
+  width: 320px;
+  height: 180px;
+  background-color: gray;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+
+.time-video {
+  font-family: Arial;
+  position: absolute;
+  background-color: black;
+  color: white;
+  bottom: 10px;
+  right: 10px;
+  padding: 6px 13px;
+  font-size: 23px;
+}
