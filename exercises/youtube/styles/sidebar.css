@@ -5,7 +5,31 @@
   top: 75px;
   width: 110px;
 
-  z-index: 100;
+  z-index: 200;
 
   background-color: white;
+  padding-top: 15px;
+}
+
+.sidebar-link {
+  height: 101px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sidebar-link:hover {
+  background-color: #EDEDED;
+}
+
+.sidebar-link img {
+  width: 35px;
+  margin-bottom: 6px;
+}
+
+.sidebar-link div {
+  font-family: Roboto, Arial;
+  font-size: 14px;
 }
