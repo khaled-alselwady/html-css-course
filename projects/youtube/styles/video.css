@@ -1,0 +1,107 @@
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 15px;
+  row-gap: 60px;
+}
+
+.thumbnail-container {
+  position: relative;
+}
+
+.thumbnail {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.channel-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.video-info-container {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.channel-pictures-container {
+  position: relative;
+  height: 0px;
+}
+
+.channel-pictures-container:hover .tooltip-for-channel-picture {
+  opacity: 1;
+}
+
+.tooltip-for-channel-picture {
+  background-color: white;
+  width: 250px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.27);
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s;
+}
+
+.channel-picture-in-tooltip-container {
+  margin-right: 10px;
+}
+
+.channel-picture-in-tooltip-container .channel-picture-in-tooltip {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.video-stats-in-tooltip-container .channle-name-in-tooltip {
+  flex: 1;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.video-stats-in-tooltip-container .subscribers-number-in-tooltip {
+  font-size: 15px;
+  color: rgb(73, 73, 73);
+  margin-top: 5px;
+}
+
+.video-stats-container {
+  width: 300px;
+}
+
+.video-title {
+  font-weight: 500;
+  line-height: 22px;
+  margin-bottom: 15px;
+}
+
+.channle-name {
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 6px;
+}
+
+.channle-name,
+.stats {
+  font-size: 13px;
+  color: gray;
+}
+
+.video-time {
+  background-color: black;
+  color: white;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  position: absolute;
+  bottom: 25px;
+  right: 5px;
+  padding: 5px;
+  font-size: 19px;
+  border-radius: 3px;
+}
