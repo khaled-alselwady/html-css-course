@@ -20,6 +20,23 @@
   flex-direction: column;
 }
 
+@media (min-width: 1600px) {
+  .sidebar {
+    width: 250px;
+    padding-left: 33px;
+  }
+
+  .sidebar-link {
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 60px;
+  }
+
+  .sidebar-link img {
+    padding-right: 30px;
+  }
+}
+
 .sidebar-link:hover {
   background-color: #EDEDED;
 }
@@ -31,4 +48,5 @@
 
 .sidebar-link div {
   font-size: 14px;
+  font-weight: 500;
 }
